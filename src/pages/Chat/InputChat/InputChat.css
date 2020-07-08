@@ -1,0 +1,44 @@
+.chatbot-chat-input-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.chatbot-chat-input-container input{
+    width: 82%;
+    border: 1px solid white;
+    color: rgb(44, 44, 44);
+    background:rgb(179, 236, 209);
+    height: 35px;
+    font-family: 'Quicksand';
+    padding-left:20px ;
+    box-sizing: border-box;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+
+
+}
+.chatbot-chat-input-container input::placeholder{
+    color: grey;
+    font-size: 14px;
+}
+.chatbot-chat-input-container button{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid rgb(30, 170, 226) ;
+    background: rgb(30, 170, 226);
+    background-image: url('../../../assets/imagenes/enviar.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 2px 15px 0 rgba(0,0,0,0.16);
+}
+
+
+
+
+
