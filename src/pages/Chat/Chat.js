@@ -23,7 +23,7 @@ const Chat = () => {
                     <div className='chatbot-chat-container-body'>
                         { chat.map((message, index) =>
                         message.emiter ==='Dog' ?
-                        <DogItem key={index} text = 'Hola, Que tal?'/>
+                        <DogItem key={index} text={message.msg}/>
                         :
                         <UserItem key={index} text='Todo bien'/>
 
