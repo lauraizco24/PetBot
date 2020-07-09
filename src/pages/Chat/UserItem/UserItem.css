@@ -7,16 +7,24 @@
 
 }
 .user-item-container label{
-    font-size: 14px;
-    color: white;
+    
+    
     background-color: rgb(250, 212, 108);
-    border-radius: 5px;
+
     width: fit-content;
     font-weight: bold;
     box-sizing: border-box;
-    padding: 10px;
-    margin: 0 10px 5px 0;
 
+
+    font-size: 14px;
+    color: white;
+
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 80%;
+    font-weight: bold;
+    box-sizing: border-box;
 }
 
 .user-item-container img{
